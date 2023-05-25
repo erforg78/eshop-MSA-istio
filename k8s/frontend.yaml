@@ -21,7 +21,7 @@ spec:
     spec:
       containers:
         - name: eshop-frontend
-          image: << ECR URI >>/<< SERVICE NAME >>:<< TAG >>
+          image: 366342963235.dkr.ecr.us-east-1.amazonaws.com/eshop-frontend:localtest
           ports:
           - containerPort: 8080
           resources:
