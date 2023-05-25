@@ -22,7 +22,7 @@ spec:
       terminationGracePeriodSeconds: 5
       containers:
       - name: eshop-productservice
-        image: << ECR URI >>/<< SERVICE NAME >>:<< TAG >>
+        image: 366342963235.dkr.ecr.us-east-1.amazonaws.com/eshop-productservice:localtest
         ports:
         - containerPort: 8092
         env:

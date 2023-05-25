@@ -21,7 +21,7 @@ spec:
     spec:
       containers:
         - name: eshop-adservice
-          image: << ECR URI >>/<< SERVICE NAME >>:<< TAG >>
+          image: 366342963235.dkr.ecr.us-east-1.amazonaws.com/eshop-adservice:localtest
           ports:
           - containerPort: 8095
           env:

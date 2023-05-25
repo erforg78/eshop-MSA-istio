@@ -21,7 +21,7 @@ spec:
     spec:
       containers:
         - name: eshop-cartservice
-          image: << ECR URI >>/<< SERVICE NAME >>:<< TAG >>
+          image: 366342963235.dkr.ecr.us-east-1.amazonaws.com/eshop-cartservice:localtest
           ports:
           - containerPort: 8091
           env:
