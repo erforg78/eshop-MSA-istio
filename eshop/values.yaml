@@ -43,11 +43,11 @@ global:
   misc:                     # inf.misc contains miscellaneous configuration related to infrastructure
     useLoadTest: false      # If running under loading test or not
     useAzureStorage: false  # If catalog api uses azure storage or not
-  # lightweight:
+  lightweight:
     # kiali-server:
     #   enabled: true
-    # prometheus:
-    #   enabled: true
+    prometheus:
+      enabled: true
     # elasticsearch:
     #   enabled: true
     # grafana:

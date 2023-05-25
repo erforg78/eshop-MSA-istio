@@ -21,3 +21,5 @@
 .idea/
 *.tmproj
 .vscode/
+# Ignore arch
+*.tar.gz 
